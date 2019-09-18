@@ -14,7 +14,7 @@ NoDoItem.map(dynamic obj){
 }
 
 String get itemName => _itemName;
-
+String get dateCreated => _dateCreated;
 
   @override
   Widget build(BuildContext context) {

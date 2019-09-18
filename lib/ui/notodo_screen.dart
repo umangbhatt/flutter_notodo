@@ -8,6 +8,9 @@ class NoToDoScreen extends StatelessWidget {
         title: Text("NoToDo"),
       ),
       floatingActionButton: FloatingActionButton(
+        backgroundColor: Colors.blueAccent,
+        tooltip: "Add",
+        child: Icon(Icons.add,color: Colors.white,),
         onPressed: _showFormDialog,
                 ),
             );
